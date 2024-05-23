@@ -1,0 +1,45 @@
+.listcontainer{
+    /* background-color: rgb(210, 30, 156); */
+    /* white-space: normal; */
+    list-style: none; /* Remove default list bullets/numbers */
+    padding: 0;
+    width: 100%;
+}
+
+.listItem{
+    /* overflow: auto;
+    display: block;
+    word-wrap: break-word; 
+    max-width: 100%; 
+    white-space: pre-wrap; */
+    text-wrap: wrap;
+    word-break: break-all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+/* 134611 C1D37F 107E7D 32936F */
+.unchecked {
+    text-decoration: none;
+    background-color: #32936F;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 2px
+}
+/* F9D4BB FF595E */
+.checked {
+    text-decoration: line-through;
+    background-color: #FF595E;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 2px
+}
+
+.delButton{
+    background-color: rgba(40, 105, 170, 0);
+    border-radius: 4px;
+    border-width: 0px;
+}
